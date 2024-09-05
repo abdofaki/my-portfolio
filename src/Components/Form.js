@@ -9,7 +9,7 @@ const Form = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_diwxeze', 'template_59oc8ze', form.current, 'dnStBUoXqYL_C-so8')
+        emailjs.sendForm('service_diwxeze', 'template_59oc8ze', form.current, process.env.REACT_APP_EMAILJS_USER_ID)
           .then((result) => {
               console.log(result.text);
           }, (error) => {

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.685d2288.css",
+    "main.js": "/my-portfolio/static/js/main.e7eeb831.js",
+    "static/media/mypic.png": "/my-portfolio/static/media/mypic.3914a0e521ddfde68619.png",
+    "static/media/vm.jpg": "/my-portfolio/static/media/vm.792403f67546d6383b02.jpg",
+    "static/media/MasjidAlEmman.png": "/my-portfolio/static/media/MasjidAlEmman.172fc0d5a0ebf96f6a32.png",
+    "static/media/DrKotiabh.png": "/my-portfolio/static/media/DrKotiabh.0f5b90508af6673ee447.png",
+    "static/media/ct.jpg": "/my-portfolio/static/media/ct.130aafdc2971621b749c.jpg",
+    "static/media/tm.jpg": "/my-portfolio/static/media/tm.791d0b321d47e21a2f3c.jpg",
+    "static/media/intro-pg.jpg": "/my-portfolio/static/media/intro-pg.2e24b6a68b10759d6143.jpg",
+    "static/media/react1.jpg": "/my-portfolio/static/media/react1.cf7b6bd11cab94294c3e.jpg",
+    "static/media/react2.jpg": "/my-portfolio/static/media/react2.64df6f405733aee1fe05.jpg",
+    "static/media/intro-bg2.jpg": "/my-portfolio/static/media/intro-bg2.cf2364827d8b8a98642e.jpg",
+    "static/media/increase.png": "/my-portfolio/static/media/increase.f60e2890815484de8ab4.png",
+    "static/media/seo.png": "/my-portfolio/static/media/seo.38cc8a4566fda4c1a001.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.685d2288.css.map": "/my-portfolio/static/css/main.685d2288.css.map",
+    "main.e7eeb831.js.map": "/my-portfolio/static/js/main.e7eeb831.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.685d2288.css",
+    "static/js/main.e7eeb831.js"
+  ]
+}
