@@ -1,0 +1,174 @@
+/* .project-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+.project-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:40px;
+    padding-bottom: 5rem;
+}
+.project-card{
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+}
+.project-card img{
+    width: 100%;
+}
+.project-title{
+    color:#fff;
+    padding: 1rem 0;
+}
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align:justify;
+}
+.workE-btns{
+    display: flex;
+    justify-content:center;
+    padding: 0.5rem 0;  
+   
+}
+.workbtn{
+ padding: 12px 32px;
+  width: 50%; 
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.workbtn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
+.workE-btns .workbtn{
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 740px) {
+    .project-container{
+
+        max-width:90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    
+    }
+    
+} */
+
+
+
+.project-heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    font-size: 2.5rem;
+    color: #f8d90f;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.project-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.project-card {
+    background: #1a1919;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: opacity 0.3s ease;
+}
+
+.project-card img:hover {
+    opacity: 0.9;
+}
+
+.project-title {
+    color: #f8d90f;
+    padding: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pro-details p {
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #e0e0e0;
+    line-height: 1.8;
+}
+
+.workE-btns {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.workbtn {
+    padding: 14px 36px;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    background: #f8d90f;
+    color: #222;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.workbtn:hover {
+    background: #222;
+    color: #f8d90f;
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 740px) {
+    .project-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
+    }
+
+    .pro-details p {
+        font-size: 1rem;
+    }
+
+    .workbtn {
+        font-size: 1rem;
+        padding: 12px 28px;
+    }
+}
